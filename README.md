@@ -11,8 +11,8 @@
 #### Transform Capslock into *Hyper*, improve your productivity tremendously!
 
 * Powerful: Make Capslock a great new modifier key: **Hyper(✱)**. 
-* Well-Designed:  High-Freq key in hot-area. Bring lots of useful functionalities.
-* Compatiable: Work well with other modifiers, appliactions, devices.
+* Well-Designed:  High-frequency key in hot area. Bring lots of useful functionality.
+* Compatible: Work well with other modifiers, applications, devices.
 * Light-Weight:  Just a small script, carry it everywhere !
 * [Design Document](design.md)
 
@@ -28,7 +28,7 @@
 
 
   - Old [XML]() Version (before OS X 10.11, *no longer maintained*) 
-- [CapsLock(Windows)](win/) via AutoHotKey  *(no longer maintianed)*
+- [CapsLock(Windows)](win/) via AutoHotKey  *(no longer maintained)*
   - Windows XP, Vista, 7, 8, 10
 
 
@@ -46,7 +46,7 @@ karabiner://karabiner/assets/complex_modifications/import?url=https://raw.github
 ```
 
 ```bash
-# Karabiner-Elements Offical Script Gallery
+# Karabiner-Elements Official Script Gallery
 karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs.org%2Fosx%2Fkarabiner%2Fcomplex_modifications%2Fjson%2Fcaps_lock_enhancement.json
 ```
 
@@ -63,7 +63,7 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 
 ### Basic
 
-`✱` Hyper actually maps to `⌃⌥⇧⌘` (all right modifiers) , It works well with additional left modifiers. And compatible with most application. Hold CapsLock to enable `Hyper` funcationality while press it will emit an `Escape`.
+`✱` Hyper actually maps to `⌃⌥⇧⌘` (all right modifiers) , It works well with additional left modifiers. And compatible with most application. Hold CapsLock to enable `Hyper` functionality while pressing it will emit an `Escape`.
 
 | Origin    | Maps to    | Comment                    |
 | --------- | ---------- | -------------------------- |
@@ -103,7 +103,7 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 
 
 
-### Mousekey
+### Mouse Keys
 
 * Emulate mouse with keyboard
 * Also can be archived by `⌥`  with `HJKL`
@@ -138,7 +138,7 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 | `A`              | `⌃⌥⇧⌘A`                 | Leaves to [Moom](https://manytricks.com/moom/), ※a window resize app |
 | `⌘A`             | `⌃↑`  Ctrl+UpArrow      | OSX Expose All                           |
 | `S`              | `⌃⇥`  Ctrl+Tab          | Switch Tab                               |
-| `⌘S`             | `⌃⇧⇥` Ctrl+Shift+Tab    | Swtich Tab Reversely                     |
+| `⌘S`             | `⌃⇧⇥` Ctrl+Shift+Tab    | Switch Tab In Reverse                    |
 | `⌘D`             | `F11`                   | Show Desktop                             |
 
 ### Bash Control
@@ -162,7 +162,7 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 | ------ | ----------------------- | ----------------------------------------------- |
 | `E`              | Open Safari             | Open Web Browser                         |
 | `⌘E`             | Open Finder             | Open File Browser                        |
-| `R`    | Open iTerm2             | Great terminal for osx (`Run`)                  |
+| `R`    | Open iTerm2             | Great terminal for OS X (`Run`)                 |
 | `⌘R`   | Open Preview            | Switch to opened picture, pdf, etc...           |
 | `T`    | Open Visual Studio Code | Text Editor: Visual Studio Code                 |
 | `⌘T`   | Open Typora             | Text Editor: Typora , a great WYSIWYG md editor |
@@ -170,7 +170,7 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 | `⌘F`   | Open Dash               | Find API Document                               |
 | `F` | Open Alfred | Leaves to `⌃⌥⇧⌘F` |
 | `⌘D`  | Open Dictionary         | Find words                                      |
-| `G`    | Open Intellij IDEA      | Open IDE                                        |
+| `G`    | Open IntelliJ IDEA      | Open IDE                                        |
 | `⌘G`   | Open Chrome             | Google Chrome                                   |
 
 ### Functional
@@ -207,7 +207,7 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 
 ### Shifter
 
-- A more convient shift for most case
+- A more convenient shift for most cases
 - Semicolon`;` and Quote  `'` have some special treatment, makes input `!=` and `:=`  easier
 
 | Origin             | Maps to | Comment                  |
@@ -235,7 +235,7 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 
 | Origin                 | Maps to             | Comment                                        |
 | ---------------------- | ------------------- | ---------------------------------------------- |
-| `⎋` Escape             | `⇪`  CapsLock       | Bug: Difficult to turn capslock off after emit |
+| `⎋` Escape             | `⇪`  CapsLock       | Bug: Difficult to turn CapsLock off after emit |
 | `~` BackQuote          | `⌃⇧⌘4`              | macOS Area Screenshot to Clipboard             |
 | `⌘~` Command+BackQuote | `⌃⇧4`               | macOS Area Screenshot to Desktop File          |
 | `⌫` Backspace          | `⌘⌫`                | macOS Delete File                              |
@@ -308,11 +308,11 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 
 ## FAQ
 
-- Q： Why using ✱ as symbol of hyper key？
+- Q： Why are you using ✱ as the symbol of the hyper key？
 
-  A：Cause asterisk have the ascii code 42, which is the answer to life, the universe, and everything!  while itself has meaning 'star'. ✱ (Heavy-Asterisk) is a pretty version of `*` (Asterisk). Actually I would choose ☯  if Github could render it properly...
+  A：Beause the asterisk has as ascii code of 42, which is the answer to life, the universe, and everything!  While itself has meaning 'star'. ✱ (Heavy-Asterisk) is a pretty version of `*` (Asterisk). Actually I would choose ☯  if Github could render it properly...
 
-- Q：Why Linux support is missing？
+- Q：Why is Linux support missing？
 
   A：because I choose Mac, and use Linux through terminal.
 
@@ -320,7 +320,7 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 
   A:   I don't use windows anymore,  Win version is no longer maintained. Welcome if you can fix that.
 
-- Q:  Why there's an old Mac version?
+- Q:  Why is there an old Mac version?
 
   A:  Apple is really capricious. macOS Sierra changes it's kernel architecture, so the old version karabiner is incompatible with macOS after 10.12. But now there's a new version of karabiner named karabiner-elements. While karabiner-elements use a new JSON-format conf instead of old XML-format. Please using the new version.
 
